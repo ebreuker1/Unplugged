@@ -23,30 +23,9 @@
   <![endif]-->
 
 <!-- Add your site or application content here -->
-
-<script src="../js/vendor/modernizr-3.8.0.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script>
-  window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')
-</script>
-<script src="../js/plugins.js"></script>
-<script src="../js/main.js"></script>
-
-<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-<script>
-  window.ga = function() {
-    ga.q.push(arguments)
-  };
-  ga.q = [];
-  ga.l = +new Date;
-  ga('create', 'UA-XXXXX-Y', 'auto');
-  ga('set', 'transport', 'beacon');
-  ga('send', 'pageview')
-</script>
-<script src="https://www.google-analytics.com/analytics.js" async></script>
 <header>
   <div class="content-wrapper">
-    <a href="#"><img src="" alt="unplugged logo"></a>
+    <a href="#"><img src="..." alt="unplugged logo"></a>
     <div class="header-divider"></div>
     <nav>
       <ul>
@@ -63,7 +42,9 @@
 
   <section class="hero-area">
     <div class="content-wrapper">
-      <h1>Retreat from the desk, returned refreshed!</h1>
+      <div class="form-description">
+        <h1>Retreat from the desk, returned refreshed!</h1>
+      </div>
     </div>
   </section>
   <aside>
@@ -75,36 +56,44 @@
 
     </div> <!-- end aside content-wrapper -->
   </aside>
-  <div class="content-wrapper">
+  <section class="features">
     <h1>Have the work week you always dreamed of- Without the bad wifi</h1>
-    <div class="amenities">
-      <ul>
-        <li>
-          <img src="..." alt="tent">
-          <p>Located in a peaceful bungalow outside of Lake Geneva,Wisconsin.</p>
-        </li>
-        <li>
-          <img src="..." alt="bed">
-          <p>12 private rooms with ensuite bathrooms. 2 group meeting rooms, and 4 breakout rooms.</p>
-        </li>
-        <li>
-          <img src="..." alt="utensils"></img>
-          <p>Private chef team providing on demand meals- just like your team kitchen.
-        </li>
-        <li>
-          <img src="..." alt="footprints">
-          <p>5 outdoor obstacle courses, including private beach 1/2 mile from bungalow.</p>
-        </li>
-        <li>
-          <img src="..." alt="smiley face">
-          <p>Retreat facilitator to manage your day to day activities so you all get a chance to reset.</p>
-        </li>
-        <li>
-          <img src="..." alt="wifi sign">
-          <p>Dedicated computer room for times that you must wifi.</p>
-        </li>
-      </ul>
+    <article>
+      <p class="fontawesome-icon"></p>
+      <p class="features-item-description">Located in a peaceful bungalow outside of Lake Geneva, Wisconsin.</p>
+    </article>
+    <article>
+      <p class="fontawesome-icon"></p>
+      <p class="features-item-description">12 private rooms with ensuite bathrooms, 2 group meeting rooms, and 4 breakout rooms.</p>
+    </article>
+    <article>
+      <p class="fontawesome-icon"></p>
+      <p class="features-item-description">Private chef team providing on demand meals- just like your team kitchen.</p>
+    </article>
+    <article>
+      <p class="fontawesome-icon"></p>
+      <p class="features-item-description">5 outdoor obstacle courses, including private beach 1/2 mile from bungalow.</p>
+    </article>
+    <article>
+      <p class="fontawesome-icon"></p>
+      <p class="features-item-description">Retreat facilitator to manage your day to day activities so you all get a chance to reset.</p>
+    </article>
+    <article>
+      <p class="fontawesome-icon"></p>
+      <p class="features-item-description">Dedicated computer room for times that you must wifi.</p>
+    </article>
+  </section>
+  <section class="reviews">
+    <div class="content-wrapper">
     </div>
+  </section>
+  <div class="LaCrue">
+    <h1>Be a better team in 5 days, like these.</h1>
+    <article>
+      <p class="image"></p>
+      <p class="statement">We are the LaCrue Bottling Company and we took this course and are a much better team because of it. It was such a helpful retreat and the food and activites were amazing. I would recommend this to any company wanting to
+        come closer and work better together!</p>
+    </article>
     <!--end of amenities -->
 
     <footer>
@@ -128,6 +117,7 @@
       </div>
 
     </footer>
+</main>
 
 
 </html>
