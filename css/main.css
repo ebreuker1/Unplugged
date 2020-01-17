@@ -94,15 +94,19 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 100%;
 }
 
-header {}
+header {
+  margin-top: 10px;
+}
 
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
 }
 
 header figure {}
@@ -114,6 +118,7 @@ header nav {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  padding-bottom: 25px;
 }
 
 /*-------- Mobile  Homepage Styles --------*/
@@ -122,6 +127,7 @@ header nav {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 100%:
 }
 
 .form-description {
@@ -129,6 +135,7 @@ header nav {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 80%;
 }
 
 aside {
@@ -136,6 +143,7 @@ aside {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 100%;
 }
 
 aside .content-wrapper {
@@ -143,12 +151,14 @@ aside .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 100%;
 }
 
 aside .form {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 80%;
 }
 
 .features {
@@ -156,23 +166,72 @@ aside .form {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 100%;
+}
+
+.features p {
+  margin: 0;
 }
 
 article {}
 
-article .fontawesome-icon {}
+article .fontawesome-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  width: 25%;
+}
 
-article .features-item-description {}
+article .features-item-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 35%;
+}
 
-.reviews {}
+.reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-.LaCrue {}
+.reviews h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
 
-article .image {}
+article .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-article .statement {}
+article h3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 80%;
+}
+
+article .statement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 80%;
+}
 
 /*-------- Footer --------*/
+footer {}
+
+footer p {
+  margin-left: 0;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
